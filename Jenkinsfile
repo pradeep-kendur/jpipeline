@@ -6,7 +6,7 @@ pipeline {
         sh '''
         #!/bin/bash
         echo "this is a script"
-        cd /var/lib/jenkins/workspace/jpipeline
+        cd /var/lib/jenkins/workspace/test1
         make
         '''
             }
@@ -18,3 +18,4 @@ stage('STAGE2') {
 }
 }
 }
+
